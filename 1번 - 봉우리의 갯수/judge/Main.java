@@ -8,7 +8,13 @@ public class Main {
     static final int TOTAL_TESTS = 20;
     static final long TIME_LIMIT_MS = 1000;  // 1초
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
+        Thread thread = new Thread(null, Main::runJudge, "judge", 1 << 26);
+        thread.start();
+        thread.join();
+    }
+
+    static void runJudge() {
         System.out.println("╔══════════════════════════════════════════════════════════════════╗");
         System.out.println("║              에베레스트산 휴게소 - 채점 시작                     ║");
         System.out.println("╠══════════════════════════════════════════════════════════════════╣");
@@ -93,13 +99,13 @@ public class Main {
 
                 String status;
                 if (timeLimitExceeded) {
-                    status = "시간초과";
+                    status = "시간 초과!";
                     tle++;
                 } else if (correct) {
                     status = "맞았습니다!";
                     passed++;
                 } else {
-                    status = "틀렸습니다..";
+                    status = "틀렸습니다!";
                     failed++;
                 }
 
@@ -129,7 +135,7 @@ public class Main {
         System.out.println("════════════════════════════════════════════════════════════════════");
 
         if (passed == TOTAL_TESTS) {
-            System.out.println("모든 테스트 케이스 통과! 맞았습니다!!");
+            System.out.println("모든 테스트케이스를 통과했습니다.");
         }
     }
 
