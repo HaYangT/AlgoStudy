@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Solution {
     /**
-     * 에베레스트산 휴게소 문제
+     * 봉우리의 개수 문제
      *
      * @param N       봉우리(정점)의 수 (1 <= N <= 100,000)
      * @param H       산의 높이 (1 <= H <= 1,000,000,000)
