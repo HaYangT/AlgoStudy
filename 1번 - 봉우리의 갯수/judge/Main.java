@@ -16,7 +16,7 @@ public class Main {
 
     static void runJudge() {
         System.out.println("╔══════════════════════════════════════════════════════════════════╗");
-        System.out.println("║              에베레스트산 휴게소 - 채점 시작                     ║");
+        System.out.println("║              봉우리의 갯수 - 채점 시작                              ║");
         System.out.println("╠══════════════════════════════════════════════════════════════════╣");
         System.out.printf("║  시간 제한: %d ms  |  테스트 케이스: %d개                        ║%n",
                 TIME_LIMIT_MS, TOTAL_TESTS);
