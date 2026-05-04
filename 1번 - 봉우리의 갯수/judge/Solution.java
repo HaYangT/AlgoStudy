@@ -11,7 +11,6 @@ public class Solution {
      * @param queries 쿼리 배열, 각 원소는 높이 h
      * @return 각 쿼리에 대해 높이가 h 이상인 봉우리의 개수
      *
-     * [힌트] DFS + 이분탐색
      */
     public int[] solution(int N, long H, int[][] edges, long[] queries) {
         // 여기에 풀이를 작성하세요
