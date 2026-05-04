@@ -37,7 +37,7 @@ N+1번째 줄에 쿼리의 횟수 Q가 주어진다.
 
 ## Return
 
-Q개의 정답을 Answer에 담아 Return 해라.
+Q개의 정답을 Result에 담아 Return 해라.
 
 ## 예제
 
