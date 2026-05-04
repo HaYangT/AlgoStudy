@@ -1,0 +1,6 @@
+4
+apple 1
+banana 2
+grape 3
+mango 4
+0

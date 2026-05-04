@@ -1,0 +1,8 @@
+7
+apple 2
+banana 4
+grape 5
+kiwi 6
+mango 3
+yam 7
+zebra 1

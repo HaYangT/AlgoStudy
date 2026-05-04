@@ -1,0 +1,6 @@
+2
+pineapple 1000
+watermelon 2999
+2
+pineapple 1000
+watermelon 999

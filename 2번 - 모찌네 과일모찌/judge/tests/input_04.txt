@@ -1,0 +1,10 @@
+6
+2024:06:01 strawberry 10
+2024:06:01 strawberry 20
+2024:06:01 strawberry 30
+2024:06:02 strawberry 5
+2024:06:02 strawberry 5
+2024:06:03 strawberry 100
+2
+2024:06:01 2024:06:01
+2024:06:01 2024:06:03

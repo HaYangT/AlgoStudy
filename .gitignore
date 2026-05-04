@@ -1,0 +1,25 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Java 컴파일 산출물
+*.class
+
+# 빌드 산출물
+out/
+bin/
+target/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

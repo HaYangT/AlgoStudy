@@ -1,0 +1,7 @@
+6
+ap 1
+apex 6
+app 2
+apple 3
+apply 4
+apricot 5
